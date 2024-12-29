@@ -1,0 +1,91 @@
+/* @theme mytheme */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+section {
+    font-family: Noto Sans JP;
+    color: #000;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: lightblue;
+}
+
+section strong {
+    font-weight: 800;
+    color: rgb(0, 162, 255)
+}
+
+section.toc {
+    text-align: left;
+    font-size: 40px;
+}
+
+section.top_page {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+section.content h1 {
+    position: absolute;
+    /* 絶対配置で位置を固定 */
+    top: 40px;
+    /* 上端に揃える */
+    left: 0;
+    /* 左端に揃える */
+    margin: 0;
+    /* デフォルトの余白を無効化 */
+    padding: 1rem;
+    /* 必要なら余白を追加 */
+    font-size: 2em;
+    /* タイトルのフォントサイズ */
+    font-weight: bold;
+    /* 太字 */
+    color: #000;
+    /* テキストカラー */
+}
+
+section.center h1 {
+    position: absolute;
+    /* 絶対配置で位置を固定 */
+    top: 40px;
+    /* 上端に揃える */
+    left: 0;
+    /* 左端に揃える */
+    margin: 0;
+    /* デフォルトの余白を無効化 */
+    padding: 1rem;
+    /* 必要なら余白を追加 */
+    font-size: 2em;
+    /* タイトルのフォントサイズ */
+    font-weight: bold;
+    /* 太字 */
+    color: #000;
+    /* テキストカラー */
+}
+
+section.center {
+    text-align: center;
+}
+
+header {
+    color: #000;
+    font-weight: 500;
+    text-align: right;
+    top: 2%;
+}
+
+footer {
+    color: black;
+    /* 色 */
+    font-weight: 500;
+    /* 文字の濃さ */
+    bottom: 2%;
+    /* 位置 */
+}
+
+h1 {
+    margin-bottom: -0.1em;
+    /* 必要に応じて調整 */
+}
